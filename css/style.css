@@ -82,12 +82,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 100vh;
-}
-@media (max-width: 767px) {
-  .wrapper .container section {
-    margin-bottom: 50px;
-  }
+  margin-bottom: 100px;
 }
 .wrapper .container section h1 {
   width: -webkit-fit-content;
@@ -142,9 +137,16 @@ body {
   color: #197ffd;
   cursor: pointer;
 }
+.wrapper .container section ul li h4 {
+  font-size: calc(16px + 0.9375vw);
+  letter-spacing: 1px;
+  width: 100%;
+  line-height: 1.4em;
+}
 .wrapper .container section ul li > p {
   font-size: calc(14px + 0.46875vw);
   padding: 10px 0;
+  line-height: 1.5em;
 }
 .wrapper .container section ul li .git, .wrapper .container section ul li .git a {
   font-size: calc(12px + 0.3125vw);

@@ -22,11 +22,7 @@ body {
         section {
           display: flex;
           flex-direction: column;
-          min-height: 100vh;
-
-          @media(max-width: 767px) {
-            margin-bottom: 50px;
-          }
+          margin-bottom: 100px;
 
             h1 {
               width: fit-content;
@@ -65,9 +61,17 @@ body {
                       }
                     }
 
+                    h4 {
+                      font-size: calc(16px + 12 * (100vw / 1280));
+                      letter-spacing: 1px;
+                      width: 100%;
+                      line-height: 1.4em;
+                    }
+
                     > p {
                       font-size: calc(14px + 6 * (100vw / 1280));
                       padding: 10px 0;
+                      line-height: 1.5em;
                     }
 
                     .git, .git a {
