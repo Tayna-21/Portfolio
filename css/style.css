@@ -84,7 +84,7 @@ body {
           flex-direction: column;
   margin-bottom: 100px;
 }
-.wrapper .container section h1 {
+.wrapper .container section h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
